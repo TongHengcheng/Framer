@@ -32,6 +32,12 @@ Framer
 
 We propose Framer, an interactive frame interpolation method that allows users to produce smoothly transitioning frames between two images by customizing the trajectory of selected keypoints, enhancing control and handling challenging cases. 
 
+## 💡 Changelog
+
+- [ ] Release the training code
+- [ ] Oct. 28, 2024. Release the inference code (**in three days**).
+- [x] Oct. 25, 2024. Launch the project page and upload the arXiv preprint.
+
 ## Showcases
 
 Note the videos are spatially compressed. We refer readers to the [project page](https://aim-uofa.github.io/Framer) for the original videos.
@@ -272,11 +278,7 @@ Note the videos are spatially compressed. We refer readers to the [project page]
 
 
 
-## 💡 Changelog
 
-- [ ] Release the training code
-- [ ] Oct. 28, 2024. Release the inference code (**in three days**).
-- [x] Oct. 25, 2024. Launch the project page and upload the arXiv preprint.
 
 
 ## 📖 Citation BibTeX
