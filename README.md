@@ -284,7 +284,7 @@ Please consider citing our paper if our code is useful:
 ```bib
 @article{wang2024framer,
   title={Framer: Interactive Video Interpolation},
-  author={Wang, Wen and Wang, Qiuyu and Zheng, Kecheng Ouyang, Hao and Chen, Zhekai and Gong, Biao and Chen, Hao and Shen, Yujun and Shen, Chunhua},
+  author={Wang, Wen and Wang, Qiuyu and Zheng, Kecheng and Ouyang, Hao and Chen, Zhekai and Gong, Biao and Chen, Hao and Shen, Yujun and Shen, Chunhua},
   journal={arXiv preprint arXiv:2410.xxxxx},
   year={2024}
 }
