@@ -34,7 +34,6 @@ We propose Framer, an interactive frame interpolation method that allows users t
 
 ## 💡 Changelog
 
-- [ ] Release the training code
 - [ ] Oct. 28, 2024. Release the inference code (**in three days**).
 - [x] Oct. 25, 2024. Launch the project page and upload the arXiv preprint.
 
