@@ -7,7 +7,7 @@ Framer
 
 <div align="center"> <img src='assets/logo/framer.png' style="height:150px"></img></div>
 
-<h3><a href="https://arxiv.org/abs/2410.xxxxx">Framer: Interactive Frame Interpolation</a></h3>
+<h3><a href="https://arxiv.org/abs/2410.18978">Framer: Interactive Frame Interpolation</a></h3>
 
 
 
