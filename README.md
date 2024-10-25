@@ -291,6 +291,10 @@ Please consider citing our paper if our code is useful:
 }
 ```
 
+## 🎫 License
+
+For academic use, this project is licensed under [the 2-clause BSD License](LICENSE). For commercial use, please contact [C Shen](mailto:chhshen@gmail.com).
+
 
 ## 😉 Acknowledgements
 
