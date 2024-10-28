@@ -30,7 +30,22 @@ Framer
 
 ## 🔆 TL;DR
 
-We propose Framer, an interactive frame interpolation method that allows users to produce smoothly transitioning frames between two images by customizing the trajectory of selected keypoints, enhancing control and handling challenging cases. 
+We propose Framer, a more controllable and interactive frame interpolation method that allows users to produce smoothly transitioning frames between two images by customizing the trajectory of selected keypoints, enhancing control and handling challenging cases. 
+
+### Main Claims
+The proposed method, Framer, provides interactive frame interpolation, allowing users to customize transitions by tailoring the trajectories of selected keypoints.
+This approach mitigates the ambiguity of image transformation, enabling much finer control of local motions and improving the model's ability to handle challenging cases (e.g., objects with differing shapes and styles).
+Framer also includes an "autopilot" mode that automatically estimates keypoints and refines trajectories, simplifying the process and enabling motion-natural and temporally coherent results.
+
+### Methodology
+This work utilizes a large-scale pre-trained image-to-video diffusion model (Stable Video Diffusion) as the base model. It introduces additional end-frame conditioning to facilitate video interpolation and incorporates a point trajectory controlling branch for user interaction. 
+
+### Key Results
+Framer outperforms existing frame interpolation methods in terms of visual quality and natural motion, particularly in cases involving complex motions and significant appearance changes.
+Quantitative evaluation using FVD (Fréchet Video Distance) demonstrates superior performance compared to other methods.
+User studies show a strong preference for Framer's output, highlighting its effectiveness in producing realistic and visually appealing results.
+
+
 
 ## 💡 Changelog
 
