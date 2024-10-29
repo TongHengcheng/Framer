@@ -21,7 +21,7 @@ Framer
 <a href='https://arxiv.org/abs/2410.18978'><img src='https://img.shields.io/badge/arXiv-2410.18978-b31b1b.svg'></a> &nbsp;
 <a href='https://aim-uofa.github.io/Framer'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 <a href='https://www.youtube.com/watch?v=4MPGKgn7jRc'><img src='https://img.shields.io/badge/Youtube-Video-b31b1b.svg'></a> &nbsp;
-<a href='https://huggingface.co/spaces/wwen1997/Framer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20Framer-Demo-blue'></a><br>
+<a href='https://huggingface.co/spaces/wwen1997/Framer'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20-Demo-blue'></a><br>
 
 <br>
 
