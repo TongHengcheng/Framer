@@ -48,7 +48,7 @@ User studies show a strong preference for Framer's output, highlighting its effe
 
 
 ## 💡 Changelog
-- [ ] Release the inference code and the model weights.
+- [ ] Release the code and the model weights.
 - [x] Oct. 28, 2024. Huggingface Gradio Demo is now available [here](https://huggingface.co/spaces/wwen1997/Framer)!
 - [x] Oct. 25, 2024. Launch the project page and upload the arXiv preprint.
 
