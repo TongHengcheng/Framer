@@ -313,5 +313,6 @@ For academic use, this project is licensed under [the 2-clause BSD License](LICE
 
 ## 😉 Acknowledgements
 
-- Thanks to [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend) for the wonderful work and codebase.
-- Thanks to [DragAnything](https://github.com/showlab/DragAnything) for the wonderful work and codebase.
+Our implementation is based on [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend) and [DragAnything](https://github.com/showlab/DragAnything).
+
+Thanks to [kijai](https://github.com/kijai) for the [ComfyUI Support](https://github.com/kijai/ComfyUI-FramerWrapper).
