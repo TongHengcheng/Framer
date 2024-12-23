@@ -48,9 +48,10 @@ User studies show a strong preference for Framer's output, highlighting its effe
 
 
 ## 💡 Changelog
-- [ ] Release the code and checkpoints.
-- [x] Oct. 28, 2024. Huggingface Gradio Demo is now available [here](https://huggingface.co/spaces/wwen1997/Framer)!
-- [x] Oct. 25, 2024. Launch the project page and upload the arXiv preprint.
+- [2024/12/20]. Thanks to [kijai](https://github.com/kijai) for the ComfyUI Support at [ComfyUI-FramerWrapper](https://github.com/kijai/ComfyUI-FramerWrapper)!
+- [2024/12/19]. Release the checkpoints.
+- [2024/10/28]. Huggingface Gradio Demo is now available [here](https://huggingface.co/spaces/wwen1997/Framer)!
+- [2024/10/25]. Launch the project page and upload the arXiv preprint.
 
 ## Showcases
 
@@ -179,8 +180,6 @@ Note the videos are spatially compressed. We refer readers to the [project page]
 </table>
 
 
-
-
 ### 4. Novel View Synthesis
 
 <table class="center">
@@ -199,18 +198,6 @@ Note the videos are spatially compressed. We refer readers to the [project page]
   </td>
   <td>
     <img src=assets/004_results_nvs/input_images/000002.jpg width="250">
-  </td>
-  </tr>
-
-  <tr>
-  <td>
-    <img src=assets/004_results_nvs/input_images/road_0.png width="250">
-  </td>
-  <td>
-    <img src=assets/004_results_nvs/data_nvs_dynamic_road_24.gif width="250">
-  </td>
-  <td>
-    <img src=assets/004_results_nvs/input_images/road_24.png width="250">
   </td>
   </tr>
 
@@ -276,22 +263,39 @@ Note the videos are spatially compressed. We refer readers to the [project page]
   </td>
   </tr>
 
-  <tr>
-  <td>
-    <img src=assets/006_results_chron/inputs/A_2_1/0.png width="250">
-  </td>
-  <td>
-    <img src=assets/006_results_chron/A_2_1_0.png_to_A_2_1_65.png.gif width="250">
-  </td>
-  <td>
-    <img src=assets/006_results_chron/inputs/A_2_1/65.png width="250">
-  </td>
-  </tr>
-
 </table>
 
 
+## Local Inference
 
+### Installation
+
+```bash
+conda create -n framer python=3.8 -y
+conda activate framer
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
+
+pip install -r requirements.txt
+```
+
+
+### Prepare weights
+
+Download pretrained [Stable Video Diffusion](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt) and [Framer](https://huggingface.co/wwen1997/framer_512x320) weights and put them in `./checkpoints`, as follows.
+
+```bash
+checkpoints/
+|─ stable-video-diffusion-img2vid-xt
+└─ framer_512x320
+```
+
+### Run gradio locally
+
+```bash
+python app.py
+```
+
+Some example inputs are presented in `./examples`, enjoy the interactive frame interpolation!
 
 
 
@@ -313,6 +317,5 @@ For academic use, this project is licensed under [the 2-clause BSD License](LICE
 
 ## 😉 Acknowledgements
 
-Our implementation is based on [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend) and [DragAnything](https://github.com/showlab/DragAnything).
-
-Thanks to [kijai](https://github.com/kijai) for the [ComfyUI Support](https://github.com/kijai/ComfyUI-FramerWrapper).
+* Our implementation is based on [SVD_Xtend](https://github.com/pixeli99/SVD_Xtend) and [DragAnything](https://github.com/showlab/DragAnything).
+* Thanks to [kijai](https://github.com/kijai) for the [ComfyUI Support](https://github.com/kijai/ComfyUI-FramerWrapper).
