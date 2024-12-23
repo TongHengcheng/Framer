@@ -28,6 +28,15 @@ Framer
 </div>
 
 
+
+## 💡 Changelog
+- [2024/12/20]. Thanks to [kijai](https://github.com/kijai) for the ComfyUI Support at [ComfyUI-FramerWrapper](https://github.com/kijai/ComfyUI-FramerWrapper)!
+- [2024/12/19]. Release the checkpoints.
+- [2024/10/28]. Huggingface Gradio Demo is now available [here](https://huggingface.co/spaces/wwen1997/Framer)!
+- [2024/10/25]. Launch the project page and upload the arXiv preprint.
+
+
+  
 ## 🔆 TL;DR
 
 We propose Framer, a more controllable and interactive frame interpolation method that allows users to produce smoothly transitioning frames between two images by customizing the trajectory of selected keypoints, enhancing control and handling challenging cases. 
@@ -45,13 +54,6 @@ Framer outperforms existing frame interpolation methods in terms of visual quali
 Quantitative evaluation using FVD (Fréchet Video Distance) demonstrates superior performance compared to other methods.
 User studies show a strong preference for Framer's output, highlighting its effectiveness in producing realistic and visually appealing results.
 
-
-
-## 💡 Changelog
-- [2024/12/20]. Thanks to [kijai](https://github.com/kijai) for the ComfyUI Support at [ComfyUI-FramerWrapper](https://github.com/kijai/ComfyUI-FramerWrapper)!
-- [2024/12/19]. Release the checkpoints.
-- [2024/10/28]. Huggingface Gradio Demo is now available [here](https://huggingface.co/spaces/wwen1997/Framer)!
-- [2024/10/25]. Launch the project page and upload the arXiv preprint.
 
 ## Showcases
 
